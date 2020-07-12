@@ -99,7 +99,7 @@ input[type="radio"]{
 
   @media screen and (max-width: 400px) {
     body {
-      background-size: auto%;
+      background-size: auto;
     }
   }
 

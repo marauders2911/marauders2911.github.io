@@ -90,6 +90,16 @@ input[type="radio"]{
     text-align: center;
     transition:all 0.4s;
     background-size: auto;
+    @media screen and (min-width: 400px) {
+      body {
+        background-size: 100%;
+      }
+    }
+    @media screen and (min-width: 400px) {
+      body {
+        background-color: auto;
+      }
+    }
   }
   .blog-card a{ 
   color:#fff;

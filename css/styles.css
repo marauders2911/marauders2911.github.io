@@ -89,7 +89,7 @@ input[type="radio"]{
     box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
     text-align: center;
     transition:all 0.4s;
-    background-size: contain;
+    background-size: auto;
   }
   .blog-card a{ 
   color:#fff;

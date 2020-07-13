@@ -109,13 +109,40 @@ a:hover {
   top: 0;
   left: 0;
   background: red;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/hobbit_bg.jpg");
   z-index: -1;
 
   transform: skewY(-2.2deg);
   transform-origin: 0 0;
 
   -webkit-backface-visibility: hidden;
+}
+
+.mov1{
+    background-image: url("img/movies/1.jpg");
+}
+
+.mov2{
+    background-image: url("img/movies/2.jpg");
+}
+
+.mov3{
+    background-image: url("img/movies/3.jpg");
+}
+
+.mov4{
+    background-image: url("img/movies/4.jpg");
+}
+
+.mov5{
+    background-image: url("img/movies/5.jpg");
+}
+
+.mov6{
+    background-image: url("img/movies/6.jpg");
+}
+
+.mov8{
+    background-image: url("img/movies/7.jpg");
 }
 
 .cover {

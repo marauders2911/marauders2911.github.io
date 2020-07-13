@@ -54,22 +54,22 @@ input[type="radio"]{
 }
 
 .romione{
-    background: url("../img/romione.jpg") center no-repeat;
+    background: url("../img/ships/romione.jpg") center no-repeat;
     background-position: top;
     display: block;
 }
 
 .drarry{  
-    background: url("../img/drarry.jpg") center no-repeat;
+    background: url("../img/ships/drarry.jpg") center no-repeat;
     max-height: 410px;
 }
 
 .wolfstar{
-    background: url("../img/wolfstar.jpg") center no-repeat;
+    background: url("../img/ships/wolfstar.jpg") center no-repeat;
 }
 
 .lily{
-    background: url("../img/lily.jpg") center no-repeat;
+    background: url("../img/ships/lily.jpg") center no-repeat;
     background-position: top;
 }
 

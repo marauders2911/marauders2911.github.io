@@ -127,32 +127,33 @@ a:hover {
 
 .details {
   padding: 190px 0 0 280px;
+  }
 
-  .title1 {
+.span {
+    position: absolute;
+    top: 3px;
+    margin-left: 12px;
+    background: #c4af3d;
+    border-radius: 5px;
+    color: #544c21;
+    font-size: 14px;
+    padding: 0px 4px;
+  }
+
+.title1 {
     color: white;
     font-size: 44px;
     margin-bottom: 13px;
     position: relative;
+}
 
-    span {
-      position: absolute;
-      top: 3px;
-      margin-left: 12px;
-      background: #c4af3d;
-      border-radius: 5px;
-      color: #544c21;
-      font-size: 14px;
-      padding: 0px 4px;
-    }
-  }
-
-  .title2 {
+.title2 {
     color: #c7c1ba;
     font-size: 23px;
     font-weight: 300;
     margin-bottom: 15px;
   }
-  
+
 .description {
   bottom: 0px;
   height: 200px;
@@ -176,18 +177,3 @@ a:hover {
   width: 480px;
   float: left;
 }
-
-.avatars {
-  margin-top: 23px;
-
-  img {
-    cursor: pointer;
-  }
-
-  img:hover {
-    opacity: 0.6;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }

@@ -108,7 +108,6 @@ a:hover {
   overflow: hidden;
   top: 0;
   left: 0;
-  background: red;
   z-index: -1;
 
   transform: skewY(-2.2deg);
@@ -117,7 +116,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
 }
 
-.mov1{
+.mov1:before{
   background: url("../img/movies/1.jpg") center no-repeat;
 }
 

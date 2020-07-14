@@ -23,8 +23,11 @@
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background-color: #9575cd;
-    color: floralwhite;
+    background-image: url("../img/page_back/crest.png");
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .address{
@@ -36,10 +39,7 @@
 body{
     padding: 50px 0px 0px 0px;
     z-index: 0;
-    background-image: url("../img/page_back/crest.png");
-    background-color: white;
-    background-position: center;
-    background-repeat: repeat-y;
+    
 }
 
 .navbar-dark{

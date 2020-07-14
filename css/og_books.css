@@ -36,7 +36,10 @@
 body{
     padding: 50px 0px 0px 0px;
     z-index: 0;
-    background: url("../img/page_back/crest.png") center no-repeat;
+    background-image: url("../img/page_back/crest.png");
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -187,13 +190,15 @@ a:hover {
     font-size: 44px;
     margin-bottom: 13px;
     position: relative;
+    text-decoration: none;
 }
 
 .title2 {
-    color: #c7c1ba;
+    color: white;
     font-size: 23px;
     font-weight: 300;
     margin-bottom: 15px;
+    text-decoration: none;
   }
 
 .description {

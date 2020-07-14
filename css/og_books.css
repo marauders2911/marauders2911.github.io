@@ -112,11 +112,12 @@ a:hover {
 
   transform: skewY(-2.2deg);
   transform-origin: 0 0;
+  background-size: cover;
 
   -webkit-backface-visibility: hidden;
 }
 
-.mov1:before{
+.mov1{
   background: url("../img/movies/1.jpg") center no-repeat;
 }
 

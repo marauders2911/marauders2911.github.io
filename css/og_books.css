@@ -157,6 +157,8 @@ a:hover {
   top: 160px;
   left: 40px;
   z-index: 2;
+  max-height: 282px;
+  max-width: 187px;
 }
 
 .details {

@@ -39,8 +39,7 @@ body{
     background-image: url("../img/page_back/crest.png");
     background-color: white;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
 }
 
 .navbar-dark{

@@ -25,18 +25,6 @@
     margin: 0px auto;
 }
 
-.head_image{
-  background: url("../img/page_back/crest.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.row-content-1{
-  width: 100%;
-  height: 1000px;
-}
-
 .address{
     font-size: 80%;
     margin: 0px;

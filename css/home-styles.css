@@ -20,7 +20,7 @@ html, body {
 
 .container {
   position: fixed;
-  width: 100%;
+  width: 2000px;
   height: 110vh;
   left: -5vw;
   top: -5vh;

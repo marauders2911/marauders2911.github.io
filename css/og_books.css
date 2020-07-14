@@ -112,25 +112,28 @@ a:hover {
 
   transform: skewY(-2.2deg);
   transform-origin: 0 0;
-  background-size: cover;
 
   -webkit-backface-visibility: hidden;
 }
 
 .mov1{
   background: url("../img/movies/1.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .mov2{
   background: url("../img/movies/2.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .mov3{
   background: url("../img/movies/3.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .mov4{
   background: url("../img/movies/4.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .mov5{
@@ -139,14 +142,17 @@ a:hover {
 
 .mov6{
   background: url("../img/movies/6.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .mov8{
   background: url("../img/movies/7.jpg") center no-repeat;
+  background-size: cover;
 }
 
 
 .cover {
+  background-size: cover;
   position: absolute;
   top: 160px;
   left: 40px;

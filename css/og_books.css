@@ -23,11 +23,16 @@
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background-image: url("../img/page_back/crest.png");
-    background-color: white;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.head_image{
+  width: 100%;
+  height: 100px;
+  background-image: url("../img/page_back/crest.png");
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .address{

@@ -118,32 +118,33 @@ a:hover {
 }
 
 .mov1{
-    background-image: url("img/movies/1.jpg");
+  background: url("../img/movies/1.jpg") center no-repeat;
 }
 
 .mov2{
-    background-image: url("img/movies/2.jpg");
+  background: url("../img/movies/2.jpg") center no-repeat;
 }
 
 .mov3{
-    background-image: url("img/movies/3.jpg");
+  background: url("../img/movies/3.jpg") center no-repeat;
 }
 
 .mov4{
-    background-image: url("img/movies/4.jpg");
+  background: url("../img/movies/4.jpg") center no-repeat;
 }
 
 .mov5{
-    background-image: url("img/movies/5.jpg");
+  background: url("../img/movies/5.jpg") center no-repeat;
 }
 
 .mov6{
-    background-image: url("img/movies/6.jpg");
+  background: url("../img/movies/6.jpg") center no-repeat;
 }
 
 .mov8{
-    background-image: url("img/movies/7.jpg");
+  background: url("../img/movies/7.jpg") center no-repeat;
 }
+
 
 .cover {
   position: absolute;

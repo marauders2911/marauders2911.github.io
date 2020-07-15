@@ -27,16 +27,16 @@ html, body {
   background: #ff0;
 }
 
-.wrapper {
+.wrapper1 {
   position: relative;
   perspective: 40em;
   display: grid;
   transform-style: preserve-3d;
 }
 
-.card {
+.card1 {
   grid-area: 1 / 1;
-  height: 300px;
+  height: 270px;
   width: 600px;
   transform: translateX(10px) rotateY(25deg) rotateX(10deg);
   background: rgba(249, 198, 26, 0.88);
@@ -57,7 +57,7 @@ h1 {
   font-weight: 900;
 }
 
-.card .enclosed {
+.card1 .enclosed {
   background: #000;
   line-height: 1;
   color: rgba(249, 198, 26, 1);
@@ -67,7 +67,7 @@ h1 {
   transform-origin: right center;
 }
 
-.wrapper:before {
+.wrapper1:before {
   --bw: 9px;
   grid-area: 1 / 1;
   content: '';
@@ -84,25 +84,148 @@ h1 {
 }
 
 
-.wrapper:hover > div,
-.wrapper:hover:before {
+.wrapper1:hover > div,
+.wrapper1:hover:before {
   transform: none;
 }
 
 
-.wrapper > div,
-.wrapper:before {
+.wrapper1 > div,
+.wrapper1:before {
   will-change: transform;
   transition: .3s transform cubic-bezier(.25,.46,.45,1);
 }
 
-@media screen and (max-width: 500px) {
-  .card{
+@media screen and (max-width: 600px) {
+  .card1{
     height: 150px;
     width: 300px;
   }
 }
 
-.trigger{
-  display: block;
+@import url(https://fonts.googleapis.com/css?family=Open + Sans:300, 400, 700);
+
+$regal-blue: #034378;
+$san-juan: #2d4e68;
+$bermuda: #77d7b9;
+$white: #fff;
+$black: #000;
+$open-sans: "Open Sans", sans-serif;
+
+@mixin cf {
+	&::before,
+	&::after {
+		content: "";
+		display: table;
+	}
+	&::after {
+		clear: both;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.cardTitle {
+	text-decoration: none;
+}
+
+.title {
+	font-family: $open-sans;
+	font-weight: 300;
+}
+
+.row {
+	max-width: 900px;
+	margin: 50px auto 0;
+}
+
+// Base styles
+.card {
+	float: left;
+	padding: 0 1.7rem;
+	width: 80%;
+	.menu-content {
+		@include cf;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		li {
+			display: inline-block;
+		}
+		a {
+			color: $white;
+		}
+		span {
+			position: absolute;
+			left: 50%;
+			top: 0;
+			font-size: 10px;
+			font-weight: 700;
+			font-family: "Open Sans";
+			transform: translate(-50%, 0);
+		}
+	}
+	.wrapper {
+		background-color: $white;
+		position: relative;
+		overflow: hidden;
+		box-shadow: 0 19px 38px rgba($black, 0.3), 0 15px 12px rgba($black, 0.2);
+	}
+	.data {
+		float: right;
+		width: 60%;
+		height: 100%;
+		.content {
+			padding: 1em;
+			position: relative;
+			z-index: 1;
+		}
+	}
+	.author {
+		font-size: 12px;
+	}
+	.title {
+		margin-top: 10px;
+	}
+	.text {
+		height: 70px;
+		margin: 0;
+	}
+	input[type="checkbox"] {
+		display: none;
+	}
+	input[type="checkbox"]:checked + .menu-content {
+		transform: translateY(-60px);
+	}
+}
+
+// First example styles
+.example-1 {
+	.wrapper {
+	}
+
+	.content {
+		background-color: $white;
+		box-shadow: 0 5px 30px 10px rgba($black, 0.3);
+	}
+	.title {
+		a {
+			color: lighten($black, 50%);
+		}
+	}
+}
+
+.image {
+	float: left;
+	width: 40%;
+}
+
+.book-image {
+	width: 100%;
+	display: block;
+	height: 80%;
+	margin-top: auto;
+	margin-bottom: auto;
 }

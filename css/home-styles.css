@@ -102,3 +102,7 @@ h1 {
     width: 300px;
   }
 }
+
+.trigger{
+  display: block;
+}

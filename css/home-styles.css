@@ -254,3 +254,8 @@ sans-serif;
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
+.h2{
+  font-size: 20px;
+  font-weight: 900;
+}

@@ -135,6 +135,7 @@ figure a {
 figure:hover .media {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
+          box-shadow: 5px 10px 18px #888888;
 }
 figcaption {
   color: #252830;

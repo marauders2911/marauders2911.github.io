@@ -157,13 +157,14 @@ svg {
   width: 100%;
 }
 
-@media screen and (max-width: 700px) {
+
+@media screen and (min-width: 400px) {
   .svg{
-    width: 80%;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .svg{
     width: 60%;
   }

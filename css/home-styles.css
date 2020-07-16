@@ -172,3 +172,8 @@ svg #base {
   -webkit-mask: url(#mask);
   mask: url(#mask);
 }
+
+.hh1{
+  font-size: 10px;
+  font-weight: 0;
+}

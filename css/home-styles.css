@@ -164,7 +164,7 @@ svg {
 }
 
 @media screen and (max-width: 400px) {
-  .card1{
+  .svg{
     width: 80%;
   }
 }

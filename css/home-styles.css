@@ -175,6 +175,11 @@ svg text {
 svg #alpha {
   fill: white;
 }
+
+svg #beta {
+  fill: white;
+}
+
 svg .title {
   font-size: 28px;
   font-family: "Montserrat";
